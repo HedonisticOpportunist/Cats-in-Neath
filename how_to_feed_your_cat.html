@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>How to Feed Your Cat ❥</title>
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="css/feed_cat.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link href="https://fonts.googleapis.com/css2?family=BioRhyme&family=Cabin&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="container">
+    <!-- header elements -->
+    <header>
+      <h1>
+        How to Feed Your Cat ❥
+      </h1>
+      <img src="https://i.imgur.com/uEd6CDp.jpg" alt="Ginger tabby sitting" />
+      <p>
+        Cats need to be fed regularly.🐈 Otherwise, they will get grumpy and
+        chew at your hair! 🙀
+      </p>
+    </header>
+    <!-- what cats like (section one) -->
+    <section onmouseover="foodHover()" onmouseout="foodHoverOut()">
+      <h2>
+        Foods Items That Cats Like ฅ^•ﻌ•^ฅ
+        <i id="food" class="fa fa-heart" aria-hidden="true"></i>
+      </h2>
+      <ul>
+        <li>Any wet food that contains meat</li>
+        <li>Dry food 😺</li>
+        <li>Cooked chicken breast</li>
+        <li>Birds ... 🐦</li>
+      </ul>
+    </section>
+    <!-- toxic foods to cats (section two) -->
+    <section onmouseover="toxicHover()" onmouseout="toxicHoverOut()">
+      <h2>
+        Foods that are toxic to cats 🐱
+        <i id="toxic" class="fa fa-heartbeat" aria-hidden="true"></i>
+      </h2>
+      <ol>
+        <li>
+          Chocolate 🍫
+        </li>
+        <li>
+          Raw meat 🍖
+        </li>
+        <li>
+          Onions and garlic 🧅
+        </li>
+        <li>
+          Alcohol 🍺
+        </li>
+      </ol>
+    </section>
+    <!-- Return to Index -->
+    <p>
+      <a class="btn btn-blue" onclick="directToIndex()">Return to the index page</a>
+    </p>
+    <!-- footer -->
+    <footer>
+      <p>
+        @Copyright Anita 2020
+      </p>
+    </footer>
+  </div>
+  <!-- Scripts -->
+  <script src="scripts/feed_cat_script.js"></script>
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>

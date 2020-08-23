@@ -1,0 +1,74 @@
+/*
+general element styling
+*/
+body {
+  font-family: 'BioRhyme', serif;
+  background-color: azure;
+  width: 50%;
+  text-align: center;
+}
+
+ol, ul, li, p {
+  color: black;
+  text-align: left;
+}
+
+h1 {
+  font-size: 300%;
+  color: darkcyan;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-family: 'Cabin', sans-serif;
+}
+
+h2 {
+  color: lightseagreen;
+  text-transform: uppercase;
+  font-weight: 80%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*
+  container position
+*/
+#container {
+  width: 60%;
+  margin: auto;
+}
+
+/*
+  image styling
+*/
+img {
+  width: 50%;
+  height: 50%;
+  border-radius: 25%;
+}
+
+/*
+  footer styling
+*/
+footer {
+  margin-top: 70px;
+  background-color: aliceblue;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: mediumturquoise;
+}
+
+/*
+  media queries
+*/
+@media screen and (max-width: 768px) {
+  #container {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 200%;
+  }
+}

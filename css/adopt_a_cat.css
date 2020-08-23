@@ -1,0 +1,115 @@
+/*
+A lot of the colours came from: 
+
+[9] Color Hunt, "Color Hunt", 2020. [Online]. Available:
+https://colorhunt.co/ [Accessed: 20-August-2020]
+
+*/
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #c3aed6;
+}
+
+h1, h3 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #59405c;
+}
+
+/* Modify the backgorund color of bootstrap navigation bar */
+.navbar-custom {
+  background-color: #c3aed6;
+}
+
+/*
+  image styling
+*/
+#header_tabby {
+  width: 20%;
+  height: auto;
+  border-radius: 35%;
+  float: left;
+}
+
+#proud-ginger {
+  width: 10%;
+  height: 10%;
+  border-radius: 30%;
+  float: left;
+}
+
+.logo {
+  width: 10%;
+  height: auto;
+  border-radius: 40%;
+}
+
+#kittens {
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+}
+
+/*
+  section styling
+*/
+#nav_main {
+  background-color: #b0cac7;
+  text-align: justify;
+  padding: 5% 5%;
+}
+
+#about {
+  background-color: #f7d6bf;
+  text-align: justify;
+  padding: 5% 5%;
+}
+
+#adopted-cats {
+  background-color: #318fb5;
+  text-align: left;
+  text-align: justify;
+  padding: 5% 5%;
+}
+
+#charities {
+  background-color: #93b5e1;
+  text-align: justify;
+  padding: 5% 5%;
+}
+
+#sign_up {
+  background-color: #ffd5cd;
+  text-align: justify;
+  padding: 5% 5%;
+}
+
+#footer {
+  background-color: #efbbcf;
+  text-align: center;
+}
+
+/*
+  paragraph styling
+*/
+p {
+  display: inline;
+}
+
+/*
+  navigation styling
+*/
+.navbar-brand {
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+/*
+  footer styling
+*/
+#footer {
+  margin-top: 5px;
+  font-family: sans-serif;
+  font-style: oblique;
+}
