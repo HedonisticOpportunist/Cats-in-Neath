@@ -1,5 +1,13 @@
 /*
 
+I was initally wary of using Bootstrap, but changed my mind once Angela Yuu's course
+showed me how effectively it could help me build navigation bars. I modified the navigation
+bar to fit in with site layout in general. I also used the container layout of Boostrap to
+position text elements on the site.
+
+[10] Bootstrap, 'Get Bootstrap', 2020. [Online]. Available:
+https://getbootstrap.com/. [Accessed: 23-August-2020]
+
 The custom scrollbar code which I adjusted in terms of colour, width and other
 styling properties came from:
 
@@ -17,7 +25,6 @@ A lot of the colours came from
 [9] Color Hunt, "Color Hunt", 2020. [Online]. Available:
 https://colorhunt.co/ [Accessed: 20-August-2020]
 */
-
 /*
   body styling
 */
@@ -209,9 +216,6 @@ a {
 }
 
 .ghostie {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 20%;
   border: 5px solid #cedebd;
   border-radius: 15%;
@@ -237,6 +241,13 @@ a {
   border: 5px solid #df5e88;
 }
 
+.snow_cushion {
+  margin: 5px;
+  width: 20%;
+  height: 180px;
+  border: 5px solid #f7d1ba;
+}
+
 /*
 Footer
 */
@@ -248,18 +259,10 @@ Footer
 /*
 message validatiaon styling
 */
-#validation_error {
+#validation_message {
   margin: 15px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-left: 10px;
   color: #e94560;
   font-style: italic;
   font-weight: bolder;
-}
-
-#success {
-  margin: 15px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  color: #be5683;
 }

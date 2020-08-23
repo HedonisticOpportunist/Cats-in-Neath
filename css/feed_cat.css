@@ -1,4 +1,14 @@
 /*
+  The source that taught me how to make a look page in a certain way was the 5 Day Coding Challenge
+  by Code Insitute; however, I modified a lot of what they taught and put my own spin on things, because
+  I did not like what they were designing or how their final product looked.
+
+  [2] Code Institute, '5 Day Coding Challenge', 2020. [Online]. Available:
+  https://codeinstitute.net/5-day-coding-challenge/?sitelink=5-Day-Coding-Challenge&&ads_cmpid=1578649861&ads_adid=62188641080&ads_matchtype=b&ads_network=g&ads_creative=417883010331&utm_term=%2Bcode%20%2Binstitute&ads_targetid=kwd-319867642491&utm_source=google&utm_medium=cpc&gclid=EAIaIQobChMIndqG7PWv6wIVEevtCh097wE2EAAYASABEgI71fD_BwE&gclsrc=aw.dsL.
+  [Accessed: 28-Aug-2020]
+
+*/
+/*
 general element styling
 */
 body {
@@ -49,7 +59,8 @@ img {
   footer styling
 */
 footer {
-  margin-top: 70px;
+  margin-bottom: 0px;
+  margin-right: 2px;
   background-color: aliceblue;
 }
 

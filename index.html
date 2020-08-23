@@ -68,19 +68,22 @@
     <br>
     <!-- Horizontal Line -->
     <hr>
+  </div>
+  <div class="col-9">
     <!-- Contact Details -->
     <h1>Contact Details</h1>
 
     <p> Email us! 📧 hedonistic.opportunist@gmail.com</p>
     <label>Your Message</label>
+    <!-- Validation Message Placeholder -->
     <br>
+    <p id="validation_message">
+    </p>
+    <!-- Text Area for Message -->
     <textarea id="msg" rows="10" cols="30"></textarea>
     <br>
-    <button type="button" onclick="validateMessage()">Send Message</button>
-    <p id="validation_error">
-    </p>
-    <p id="success">
-    </p>
+    <!-- Send Message Button -->
+    <button type="button" class="btn btn-primary" onclick="validateMessage()">Send Message</button>
   </div>
   <!-- Footer -->
   <footer class="fixed-bottom">
@@ -89,7 +92,6 @@
     </p>
   </footer>
   <!-- Scripts -->
-
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
