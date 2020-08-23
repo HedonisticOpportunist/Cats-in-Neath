@@ -1,7 +1,8 @@
 /*
 The bare bones for the decreaseFont and increaseFont functions came from W3 Schools,
 but I adjusted the code to be more generic rather than the specific example provided
-on the page.
+on the page. I also got inspired to use it after doing Code Insitute's 5 Day Coding Challenge
+where the fontsyle property was used to zoom in and out of a font.  
 
 [4] W3 Schools, 'Javascript Font Style Property', 2020. [Online]. Available:
 https://www.w3schools.com/jsref/prop_style_fontsize.asp. [Accessed: 20-August-2020]
