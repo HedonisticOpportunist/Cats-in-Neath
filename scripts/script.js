@@ -14,7 +14,8 @@ Handlebars page. I adjusted the code so that it would return the date in a speci
 https://handlebarsjs.com/installation/. [Accessed: 20-Aug-2020].
 
 The code that directs to the index came from StackOverFlow. I obviously adjusted it so
-that it would return to the index page of this site.
+that it would return to the index page of this site. The same logic was used for the
+directToArticlesPage().
 
 [6] StackOverFlow, 'Return to Index', 2013. [Online]. Available:
 https://stackoverflow.com/questions/13158786/how-to-return-to-home-page-using-javascript/13158910. [Accessed: 20-August-2020]
@@ -44,6 +45,10 @@ function decreaseFont() {
 //return to index page
 function directToIndex() {
   window.location.href = "index.html";
+}
+
+function directToArticlesPage() {
+  window.location.href = "articles.html";
 }
 
 // handle bars date function
