@@ -118,6 +118,13 @@ p {
 }
 
 /*
+  button styling
+*/
+.btn {
+  margin-top: 10px;
+}
+
+/*
   footer styling
 */
 #footer {
