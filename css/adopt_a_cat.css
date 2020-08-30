@@ -1,21 +1,18 @@
 /*
-This site was built while doing a course on Web Development in Udemy. However,
+This page was initially designed while doing a course on Web Development in Udemy. However,
 instead of copying Angela's Tin Dog concept, I decided to use my own images
-and just build an adopt a cat application concept that would fit in with
-my general webpage arounds cats.
+and just build an adopt a cat application page that would fit in with the overall site. Unlike the other pages on this site, this site has its own distinct layout as it is an application rather than an
+article.
 
 [1] Dr. Angela. Yu, 'The Complete 2020 Web Development Bootcamp', 2020. [Online]. Available:
 https://www.udemy.com/course/the-complete-web-development-bootcamp/?referralCode=F2958B9D9447BDFC8244. [Accessed: 23- Aug- 2020]
-
 
 A lot of the colours came from:
 
 [9] Color Hunt, "Color Hunt", 2020. [Online]. Available:
 https://colorhunt.co/ [Accessed: 20-August-2020]
 
-The link to the images used on this site can be found on
-Resources.md
-
+The link to the images used on this site can be found on Resources.md
 */
 body {
   font-family: 'Montserrat', sans-serif;
@@ -29,7 +26,9 @@ h1, h3 {
   color: #59405c;
 }
 
-/* Modify the backgorund color of bootstrap navigation bar */
+/*
+Modify the backgorund color of the bootstrap navigation bar
+*/
 .navbar-custom {
   background-color: #c3aed6;
 }

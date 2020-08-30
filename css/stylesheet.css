@@ -1,9 +1,10 @@
 /*
 
-I was initally wary of using Bootstrap, but changed my mind once Angela Yuu's course
-showed me how effectively it could help me build navigation bars. I modified the navigation
-bar to fit in with site layout in general. I also used the container layout of Boostrap to
-position text elements on the site.
+/*I was wary of using Bootstrap, but changed my mind once Angela Yuu's course
+showed me how it could help me build navigation bars. I modified the navigation
+bar to fit in with the site’s layout in general. I also used the container layout of Bootstrap to
+position text elements on the site. A long media query is used to change the layout when using
+a specific screen width.
 
 [10] Bootstrap, 'Get Bootstrap', 2020. [Online]. Available:
 https://getbootstrap.com/. [Accessed: 23-August-2020]
@@ -14,17 +15,15 @@ styling properties came from:
 [7] W3 Schools, 'How to Create A Custom Scrollbar', 2020. [Online]. Available:
 https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp. [Accessed: 20-August-2020]
 
-The gradient buttons that I use throughout the page came CodePen. While I used some of the code,
-I did try to put my own touch to it, namely by being the font lowercase and changing / adjusting it
-according to my needs.
+The gradient buttons that I use throughout the page came from CodePen. While I used some of the code,I did try to put my own touch to it, namely by changing the font lowercase and changing / adjusting the colours according to my needs. For example, the buttons change if the
+screen width is smaller.
 
 [8] CodePen, "Gradient Buttons", 2020. [Online]. Available:
 https://codepen.io/pirrera/pen/bqVeGx [Accessed: 20-August-2020]
 
-A lot of the colours came from
+A lot of the colours came from, which features carefully curated colour palettes:
 [9] Color Hunt, "Color Hunt", 2020. [Online]. Available:
 https://colorhunt.co/ [Accessed: 20-August-2020]
-*/
 /*
   body styling
 */
@@ -52,7 +51,7 @@ th, td {
 /*
   header styling
 */
-h1, h3 {
+h1, h2, h3 {
   font-family: font-family: 'Space Mono', monospace;
   color: #93b5e1;
   font-style: oblique;
@@ -242,6 +241,12 @@ a {
   border: 5px solid #f7d1ba;
 }
 
+.ginger_cat {
+  margin: 15px;
+  width: 35%;
+  border-radius: 30%;
+}
+
 /*
 Footer
 */
@@ -251,7 +256,7 @@ Footer
 }
 
 /*
-message validatiaon styling
+message validation styling
 */
 #validation_message {
   margin: 15px;
@@ -269,20 +274,67 @@ message validatiaon styling
     width: 100%;
   }
 
+  body {
+    background-color: #e8ded2;
+  }
+
   h1 {
     font-size: 200%;
+    text-transform: uppercase;
+    color: #056676;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    color: #056676;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    color: #056676;
+  }
+
+  .navbar-custom {
+    background-color: #5eaaa8;
+  }
+
+  hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #056676;
   }
 
   .btn {
-    flex: 1 1 auto;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-    text-transform: lowercase;
-    transition: 0.4s;
-    background-size: 200% auto;
-    color: #005086;
-    box-shadow: 0 0 15px cyan;
-    border-radius: 20px;
+    padding: 8px;
+    border-radius: 15px;
+  }
+
+  .btn-pink {
+    background-image: linear-gradient(to right, #f1f3f8 0%, #d6e0f0 51%, #f1f3f8 100%);
+  }
+
+  .ghost_and_snow {
+    border: 5px solid #206a5d;
+  }
+
+  .snow_asleep {
+    border: 5px solid #f1f3de;
+  }
+
+  .img-thumbnail {
+    width: 30%;
+    border: 5px solid #f8bd7f;
+  }
+
+  .snow_in_a_box {
+    border: 5px solid #e3dfc8;
+  }
+
+  .kitten {
+      border: 5px solid #bfdcae;
+  }
+
+  .table {
+    border: 1px solid #f7d1ba;
   }
 }

@@ -5,81 +5,100 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>How to Feed your Cat ❥</title>
-  <!-- CSS Stylesheets -->
+  <!-- CSS stylesheets -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Space+Mono&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link href="css/feed_cat.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="css/stylesheet.css">
-  <link href="https://fonts.googleapis.com/css2?family=BioRhyme&family=Cabin&family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div id="container">
-    <!-- Header elements -->
-    <header>
-      <!-- Page title -->
-      <h1>
-        How to Feed your Cat ❥
-      </h1>
-      <!-- Image of a ginger tabby -->
-      <img src="https://i.imgur.com/uEd6CDp.jpg" alt="Ginger tabby sitting" />
-      <!-- Horizontal line -->
-      <hr>
-      <p>
-        Cats need to be fed regularly🐈. Otherwise, they will get grumpy and
-        chew at your hair! 🙀
-      </p>
-    </header>
+  <div class="col s11">
+    <!-- Page navigation -->
+    <nav class="navbar navbar-custom navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="">Cats in Neath ㅇㅅㅇ</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="right hide-on-med-and-down list-unstyled">
+          <li class="nav-item">
+            <a class="nav-link" href="adopt_cat.html">AdoptCat ♡</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="stories.html">Cat Stories =^._.^= ∫</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="articles.html">Articles (=^･ｪ･^=))ﾉ彡☆</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- Resize font buttons -->
+  <button class="btn btn-primary btn-lg" onclick="increaseFont()">A+</button>
+  <button class="btn btn-primary btn-lg" onclick="decreaseFont()">A-</button>
+  <div id="text" class="col-9">
+    <!-- Page title -->
+    <h1>
+      How to Feed your Cat ❥
+    </h1>
+    <!-- Image of a ginger tabby -->
+    <img class="ginger_cat" src="https://i.imgur.com/uEd6CDp.jpg" alt="ginger tabby sitting" />
+    <!-- Horizontal line -->
+    <hr>
+    <p>
+      Cats need to be fed regularly🐈. Otherwise, they will get grumpy and
+      chew at your hair! 🙀
+    </p>
     <!-- Foods that cats like -->
-    <section onmouseover="foodHover()" onmouseout="foodHoverOut()">
-      <h2>
-        Foods Items That Cats Like ฅ^•ﻌ•^ฅ
-        <i id="food" class="fa fa-heart" aria-hidden="true"></i>
-      </h2>
-      <ul>
-        <li>Any wet food that contains meat</li>
-        <li>Dry food 😺</li>
-        <li>Cooked chicken breast</li>
-        <li>Birds ... 🐦</li>
-      </ul>
-    </section>
+    <h2>
+      Foods Items That Cats Like ฅ^•ﻌ•^ฅ
+      <i class="fa fa-heart" aria-hidden="true"></i>
+    </h2>
+    <ul>
+      <li>Any wet food that contains meat</li>
+      <li>Dry food 😺</li>
+      <li>Cooked chicken breast</li>
+      <li>Birds ... 🐦</li>
+    </ul>
     <!-- Toxic foods -->
-    <section onmouseover="toxicHover()" onmouseout="toxicHoverOut()">
-      <h2>
-        Foods that are toxic to cats 🐱
-        <i id="toxic" class="fa fa-heartbeat" aria-hidden="true"></i>
-      </h2>
-      <ol>
-        <li>
-          Chocolate 🍫
-        </li>
-        <li>
-          Raw meat 🍖
-        </li>
-        <li>
-          Onions and garlic 🧅
-        </li>
-        <li>
-          Alcohol 🍺
-        </li>
-      </ol>
-    </section>
+    <h2>
+      Foods that are toxic to cats 🐱
+      <i class="fa fa-heartbeat" aria-hidden="true"></i>
+    </h2>
+    <ol>
+      <li>
+        Chocolate 🍫
+      </li>
+      <li>
+        Raw meat 🍖
+      </li>
+      <li>
+        Onions and garlic 🧅
+      </li>
+      <li>
+        Alcohol 🍺
+      </li>
+    </ol>
     <!-- Horizontal line -->
     <hr>
     <!-- Return to the index /articles page -->
     <p>
       <a class="btn btn-blue" onclick="directToArticlesPage()">Read more articles</a>
-      <a class="btn btn-blue" onclick="directToIndex()">Return to the index page</a>
+      <a class="btn btn-pink" onclick="directToIndex()">Return to the index page</a>
     </p>
-    <!-- Footer -->
-    <footer>
-      <p>
-        @Copyright Anita 2020
-      </p>
-    </footer>
   </div>
-  <!-- Scripts -->
-  <script src="scripts/feed_cat_script.js"></script>
-  <script src="scripts/script.js"></script>
+  <!-- Footer -->
+  <footer class="fixed-bottom">
+    <p>
+      @Copyright Anita 2020
+    </p>
+    </footer>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>
