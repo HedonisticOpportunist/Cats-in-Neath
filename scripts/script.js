@@ -71,7 +71,7 @@ $(function() {
 function validateMessage() {
   let message_field = document.getElementById("msg").value;
   if (message_field == "" || message_field == null) {
-    text = "Message field must be filed out.";
+    text = "Message field must be filled out.";
     document.getElementById("validation_message").innerHTML = text;
   } else {
     text = "You have successfully submitted a message.";

@@ -17,11 +17,12 @@ The link to the images used on this site can be found on Resources.md
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #c3aed6;
+  font-size: 15px;
 }
 
 h1, h3 {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
   line-height: 1.5;
   color: #59405c;
 }
@@ -123,11 +124,22 @@ p {
   margin-top: 10px;
 }
 
+.resize {
+  margin-left: 10px;
+  margin-top: 5px;
+  background-color: #fcdab7;
+  color: #133b5c;
+  font-style: normal;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
 /*
   footer styling
 */
 #footer {
   margin-top: 5px;
+  font-size: 10px;
   font-family: sans-serif;
   font-style: oblique;
 }

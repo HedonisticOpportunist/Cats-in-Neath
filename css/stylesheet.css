@@ -28,10 +28,12 @@ https://colorhunt.co/ [Accessed: 20-August-2020]
   body styling
 */
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
   background-color: #b2ebf2;
   text-align: left;
-  font-size: 12px;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /*
@@ -52,17 +54,17 @@ th, td {
   header styling
 */
 h1, h2, h3 {
-  font-family: font-family: 'Space Mono', monospace;
+  font-family: 'Roboto', sans-serif;
   color: #93b5e1;
   font-style: oblique;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 18px;
 }
 
 /*
@@ -100,6 +102,10 @@ hr {
 */
 a {
   color: #005086;
+}
+
+a:hover {
+  background-color: #d6e0f0;
 }
 
 /*
@@ -143,7 +149,8 @@ a {
   margin: 20px;
   padding: 20px;
   text-align: center;
-  text-transform: lowercase;
+  text-transform: uppercase;
+  font-size: 13px;
   transition: 0.4s;
   background-size: 200% auto;
   color: #005086;
@@ -157,10 +164,14 @@ a {
 
 .btn-pink {
   background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+  text-transform: uppercase;
+  font-size: 13px;
 }
 
 .btn-blue {
   background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+  text-transform: uppercase;
+  font-style: 13px;
 }
 
 /*
@@ -253,6 +264,7 @@ Footer
 .fixed-bottom {
   text-align: right;
   margin-right: 5px;
+  font-size: 10px;
 }
 
 /*
@@ -276,6 +288,9 @@ message validation styling
 
   body {
     background-color: #e8ded2;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
   h1 {
@@ -305,12 +320,18 @@ message validation styling
   }
 
   .btn {
-    padding: 8px;
-    border-radius: 15px;
+    padding: 15px;
+    border-radius: 18px;
+    text-transform: lowercase;
+    font-style: normal;
+    text-decoration-style: solid;
+    font-size: 14px;
   }
 
   .btn-pink {
     background-image: linear-gradient(to right, #f1f3f8 0%, #d6e0f0 51%, #f1f3f8 100%);
+    text-transform: lowercase;
+    font-size: 14px;
   }
 
   .ghost_and_snow {
@@ -331,7 +352,7 @@ message validation styling
   }
 
   .kitten {
-      border: 5px solid #bfdcae;
+    border: 5px solid #bfdcae;
   }
 
   .table {
