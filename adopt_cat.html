@@ -2,20 +2,28 @@
 <html lang="en" dir="ltr">
 
 <head>
+  <!-- Meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
+  <meta name="description" content="An application that lets you adopt rescue cats.">
+  <meta name="keywords" content="Cats, Rescues, Adoption">
+  <meta name="author" content="Anita Pal">
   <title>AdoptCat ㅇㅅㅇ</title>
   <!-- CSS style sheets -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="css/adopt_a_cat.css">
 </head>
 
 <body>
+  <!-- Resize font buttons -->
+  <button class="resize" onclick="increaseFont()">A+</button>
+  <button class="resize" onclick="decreaseFont()">A-</button>
   <div class="container-fluid">
     <div class="row no-gutters">
-      <div class="col-sg-6">
+      <!-- Text area -->
+      <div class="col-sg-6" id="text">
         <!-- Page title -->
         <h1>Adopt Cats Nearby 🐈</h1>
         <div id="nav_main">
@@ -34,15 +42,15 @@
             </div>
           </nav>
           <!-- Image of a yawning tabby cat -->
-          <img id="header_tabby" src="images/tabby.jpg" alt="yawning tabby">
+          <img id="header_tabby" src="images/tabby.jpg" alt="yawning tabby cat">
           <i class="fa fa-heart" aria-hidden="true"></i>
           <!-- Introduction -->
           <br>
           <p>
-            Have you thought of adopting a cat, but are not sure where to start?
+            Have you thought of adopting a cat, but aren't sure where to start?
           </p>
           <p>
-            We are here to help, not just you but all rescue cats who need a new furrever home.❤
+            We're here to help, so all rescue cats can find a new furrever home.❤
           </p>
           <br>
           <button type="button">Download</button>
@@ -53,18 +61,18 @@
           <i class="fa fa-heart" aria-hidden="true"></i>
           <br>
           <h3>Help Rescue Cats Find a New Home.</h3>
-          <p>Find cats for adoption in your area.</p>
+          <p>Find cats to adopt in your area.</p>
           <h3>All Cats Deserve the Right Home</h3>
-          <p>Our cats come from all kinds of backgrounds, which is why we match you with the right cat.</p>
+          <p>Our cats come from all kinds of backgrounds, which is why we're careful to match you with the right cat.</p>
           <h3>Trusted by Local Charities.</h3>
-          <p>Our cats' wellbeing is our topmost priority, so we make sure to screen you and your home before undertaking
+          <p>Our cats' wellbeing is our top priority, so we make sure to screen you and your home before undertaking
             any further steps.</p>
         </div>
         <!-- Adopted cats -->
         <div id="adopted-cats">
           <h3>Adopted Cats😻</h3>
           <i class="fa fa-heart" aria-hidden="true"></i>
-          <br />
+          <br>
           <p>These kittens are happy in their new home (^-人-^).</p>.
           <div>
             <a><img id="kittens" src="images/kittens.jpg" alt="kittens"></a>
@@ -77,15 +85,15 @@
           <img class="logo" src="images/cat_rescue.png" alt="cat rescue">
           <img class="logo" src="images/rspca.png" alt="biz-insider-logo">
         </div>
-        <!-- Sign Up -->
+        <!-- Sign up -->
         <div id="sign_up">
           <img id="proud-ginger" src="images/proud_ginger.jpg" alt="ginger tabby cat">
           <h3>Adopt a Cat Today</h3>
           <i class="fa fa-heart" aria-hidden="true"></i>
           <br />
-          <p>Give a cat its forever home today.</p>
+          <p>Give a cat its new forever home today.</p>
           <p>
-            Our app will match you with cats in your area.
+            We'll match you with cats in your area.
           </p>
           <br>
           <button type="button">Sign Up</button>
