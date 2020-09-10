@@ -45,13 +45,18 @@ function directToIndex() {
   window.location.href = "index.html";
 }
 
+//return to report page
+function directToReport() {
+  window.location.href = "report.html";
+}
+
 //return to the articles page
 function directToArticlesPage() {
   window.location.href = "articles.html";
 }
 
 //handle bars date function
-$(function() {
+$(document).ready(function() {
 
   let html_template = $("#date-template").html();
 

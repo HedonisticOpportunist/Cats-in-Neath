@@ -60,7 +60,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 24px;
 }
 
 h3 {
@@ -256,6 +256,16 @@ a:hover {
   margin: 15px;
   width: 35%;
   border-radius: 30%;
+}
+
+.wireframe-img {
+  width: 65%;
+}
+
+.mock {
+
+  height: 250px;
+  margin: 5px;
 }
 
 /*
