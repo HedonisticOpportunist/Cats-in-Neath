@@ -1,6 +1,6 @@
 /*
  I used the P5.js library to create this very simple cat game; the character design is my own,
- although some of the code game from the Introduction to Programming I course, namely the usage of the
+ although some of the code game came from the Introduction to Programming I course, namely the usage of the
  scroll position in order to keep the character contained within a certain range.
 
    [14] P5Js, P5js, 2020. Online].Available: https://p5js.org/libraries/.[Accessed: 10-September-2020]
