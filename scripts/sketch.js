@@ -223,7 +223,7 @@ function mouseFound(mouse) {
 		game_score += 1;
 	}
 
-	if (game_score == 1000) {
+	if (game_score == 500) {
 		game_score = 0;
 		setup();
 	}
