@@ -15,29 +15,32 @@ styling properties came from:
 [7] W3 Schools, 'How to Create A Custom Scrollbar', 2020. [Online]. Available:
 https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp. [Accessed: 20-August-2020]
 
-The gradient buttons that I use throughout the page came from CodePen. While I used some of the code,I did try to put my own touch to it, namely by changing the font lowercase and changing / adjusting the colours according to my needs. For example, the buttons change if the
+The gradient buttons that I use throughout the page came from CodePen. While I used some of the code,
+I did try to put my own touch to it, namely by changing the font lowercase and changing / adjusting
+ the colours according to my needs. For example, the buttons change if the
 screen width is smaller.
 
 [8] CodePen, "Gradient Buttons", 2020. [Online]. Available:
 https://codepen.io/pirrera/pen/bqVeGx [Accessed: 20-August-2020]
 
-A lot of the colours came from, which features carefully curated colour palettes:
+A lot of the colours came from Color Hunt, which features carefully curated colour palettes:
 [9] Color Hunt, "Color Hunt", 2020. [Online]. Available:
 https://colorhunt.co/ [Accessed: 20-August-2020]
 /*
-  body styling
+  body styling that uses a different colour and font in contrast to the
+  headers, for exmaple.
 */
 body {
   font-family: 'Lato', sans-serif;
   background-color: #b2ebf2;
   text-align: left;
   font-size: 14px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 13px;
+  margin-right: 13px;
 }
 
 /*
-  table border styling
+  table styling
 */
 table {
   margin-left: 15px;
@@ -45,30 +48,42 @@ table {
   border: 1px solid #e2979c;
 }
 
+/* table row and column styling */
 th, td {
   padding: 15px;
   text-align: left;
 }
 
 /*
-  header styling
+  h1, h2, h3 styling
 */
-h1, h2, h3 {
+h1 {
+  margin-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  color: #065c6f;
+  font-weight: bold;
+}
+
+h2 {
+  margin-left: 10px;
   font-family: 'Roboto', sans-serif;
   color: #93b5e1;
   font-style: oblique;
-}
-
-h1 {
-  font-size: 24px;
-}
-
-h3 {
   font-size: 18px;
 }
 
 /*
- horizontal line
+Each header displays a different colour, margin and font size
+ */
+h3 {
+  margin-left: 5px;
+  font-size: 16px;
+  color: #5d54a4;
+}
+
+/*
+ horizontal line that is dotted
 */
 hr {
   border-style: none;
@@ -86,9 +101,11 @@ hr {
 }
 
 /*
-  title image styling
+  index image styling
+  so that it is distinct and different from
+  images on other pages
 */
-#title-img {
+#index-img {
   margin-top: 15px;
   width: 25%;
   height: auto;
@@ -98,7 +115,9 @@ hr {
 }
 
 /*
-  link and image styling
+  link and hover styling
+  so that link displays certain
+  colour when user hovers over it
 */
 a {
   color: #005086;
@@ -134,7 +153,7 @@ a:hover {
 }
 
 /*
- button styling
+ primary button styling
 */
 .btn-primary {
   background-color: #318fb5 !important;
@@ -144,6 +163,7 @@ a:hover {
 /*
    gradient buttons
 */
+/* general gradient button */
 .btn {
   flex: 1 1 auto;
   margin: 20px;
@@ -162,12 +182,18 @@ a:hover {
   background-position: right center;
 }
 
+/*
+  pink-coloured gradient button
+*/
 .btn-pink {
   background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
   text-transform: uppercase;
   font-size: 13px;
 }
 
+/*
+  blue-coloured gradient button
+*/
 .btn-blue {
   background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
   text-transform: uppercase;
@@ -176,6 +202,7 @@ a:hover {
 
 /*
   kitten tab gallery
+  that changes brightness depending on hover
 */
 .kitten {
   border-radius: 30%;
@@ -203,13 +230,17 @@ a:hover {
 }
 
 /*
-  assorted image styling
+  assorted title styling for various
+  pages where the text is either left or centre to
+  the image. Also, the border colours are different
+  for each image
 */
 .laptop_cat {
   margin: 20px;
-  width: 40%;
+  width: 30%;
   height: auto;
   border: 5px solid #ffc1f3;
+  float: left;
 }
 
 .snow_asleep {
@@ -217,17 +248,20 @@ a:hover {
   width: 20%;
   height: auto;
   border: 5px solid #be5683;
+  float: left;
 }
 
 .ghostie {
   width: 20%;
   border: 5px solid #cedebd;
   border-radius: 15%;
+  float: left;
 }
 
 .img-thumbnail {
   width: 30%;
   border: 5px solid #e11d74;
+  float: left;
 }
 
 .snow_in_a_box {
@@ -235,6 +269,7 @@ a:hover {
   margin-bottom: 5px;
   height: auto;
   border: 5px solid #e0ece4;
+  float: center;
 }
 
 .ghost_and_snow {
@@ -243,6 +278,7 @@ a:hover {
   margin-bottom: 5px;
   height: auto;
   border: 5px solid #df5e88;
+  float: left;
 }
 
 .snow_cushion {
@@ -250,26 +286,34 @@ a:hover {
   width: 20%;
   height: 180px;
   border: 5px solid #f7d1ba;
+  float: left;
 }
 
 .ginger_cat {
   margin: 15px;
   width: 35%;
   border-radius: 30%;
+  float: center;
 }
 
+/*
+ wireframes and mock image styling
+ used in the report and wireframes pages
+*/
 .wireframe-img {
   width: 65%;
 }
 
 .mock {
-
   height: 250px;
   margin: 5px;
 }
 
 /*
-Footer
+Footer styling with specific
+margins and text alignment so that the
+font for the footer is different from the other texts
+displayed on the screen
 */
 .fixed-bottom {
   text-align: right;
@@ -278,7 +322,8 @@ Footer
 }
 
 /*
-message validation styling
+nmessage validation styling
+in order to display text in a specific colour
 */
 #validation_message {
   margin: 15px;
@@ -289,13 +334,15 @@ message validation styling
 }
 
 /*
-  media queries
+  media query with multiple conditions as the layout
+  changes completely depending on screen size
 */
 @media only screen and (max-width: 768px) {
   [class*="col-"] {
     width: 100%;
   }
 
+  /* body changes colour and font size */
   body {
     background-color: #e8ded2;
     font-size: 13px;
@@ -303,6 +350,10 @@ message validation styling
     margin-right: 15px;
   }
 
+  /*
+   headers become uppercase when
+   a smaller screen is used
+  */
   h1 {
     font-size: 200%;
     text-transform: uppercase;
@@ -323,12 +374,16 @@ message validation styling
     background-color: #5eaaa8;
   }
 
+  /* horizontal line changes colour */
   hr {
     border-style: none;
     border-top-style: dotted;
     border-color: #056676;
   }
 
+  /*
+  button text becomes lowercase
+ */
   .btn {
     padding: 15px;
     border-radius: 18px;
@@ -344,6 +399,10 @@ message validation styling
     font-size: 14px;
   }
 
+  /*
+    images change border to
+    fit in with the layout for smaller screens
+  */
   .ghost_and_snow {
     border: 5px solid #206a5d;
   }

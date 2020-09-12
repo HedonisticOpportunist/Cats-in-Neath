@@ -1,8 +1,9 @@
 /*
 This page was initially designed while doing a course on Web Development in Udemy. However,
 instead of copying Angela's Tin Dog concept, I decided to use my own images
-and just build an adopt a cat application page that would fit in with the overall site. Unlike the other pages on this site, this site has its own distinct layout as it is an application rather than an
-article.
+and just build an adopt a cat application page that would fit in with the overall site.
+Unlike the other pages on this site, this site has its own distinct layout as it is an application,
+which justifies it looking different. 
 
 [1] Dr. Angela. Yu, 'The Complete 2020 Web Development Bootcamp', 2020. [Online]. Available:
 https://www.udemy.com/course/the-complete-web-development-bootcamp/?referralCode=F2958B9D9447BDFC8244. [Accessed: 23- Aug- 2020]
@@ -17,25 +18,33 @@ The link to the images used on this site can be found on Resources.md
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #c3aed6;
-  font-size: 15px;
+  font-size: 16px;
 }
 
-h1, h3 {
+/* header styling */
+h1 {
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
+  font-size: 2em;
   line-height: 1.5;
   color: #59405c;
 }
 
+/* h2 is smaller than h1 */
+h2 {
+  font-size: 18px;
+}
+
 /*
-Modify the backgorund color of the bootstrap navigation bar
+Background colour the bootstrap navigation bar
+has been customised
 */
 .navbar-custom {
   background-color: #c3aed6;
 }
 
 /*
-  image styling
+  image styling so that each image has its
+  own, unique look
 */
 #header_tabby {
   width: 20%;
@@ -64,10 +73,17 @@ Modify the backgorund color of the bootstrap navigation bar
 }
 
 /*
-  section styling
+  individual section styling which
+  enables each section to have a different colour
 */
 #nav_main {
   background-color: #b0cac7;
+  text-align: justify;
+  padding: 5% 5%;
+}
+
+#intro {
+  background-color: #a2d5f2;
   text-align: justify;
   padding: 5% 5%;
 }
@@ -107,6 +123,7 @@ Modify the backgorund color of the bootstrap navigation bar
 */
 p {
   display: inline;
+  font-style: normal;
 }
 
 /*
@@ -124,6 +141,9 @@ p {
   margin-top: 10px;
 }
 
+/* resize button styling which displays
+ the increase / decrease buttons in a specific way
+*/
 .resize {
   margin-left: 10px;
   margin-top: 5px;
@@ -135,7 +155,8 @@ p {
 }
 
 /*
-  footer styling
+  footer styling to
+  give the footer its own distinct look
 */
 #footer {
   margin-top: 5px;
@@ -143,3 +164,21 @@ p {
   font-family: sans-serif;
   font-style: oblique;
 }
+
+/*
+ media query
+*/
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  /*
+    Layout is changed when the screen size is smaller
+  */
+  body {
+    background-color: #e8ded2;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
