@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cats in Neath ♡ </title>
+  <meta name="description" content="Home page - Cats in Neath">
+  <meta name="keywords" content="Cats, Introduction">
+  <meta name="author" content="Anita Pal">
+  <!-- CSS stylesheets and fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+  <div class="col s11">
+    <!-- Page navigation header -->
+    <nav class="navbar navbar-custom navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="index.html">Cats in Neath ㅇㅅㅇ</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navigation links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="right hide-on-med-and-down list-unstyled">
+          <li class="nav-item">
+            <a class="nav-link" href="adopt_cat.html">AdoptCat ♡</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="stories.html">Cat Stories =^._.^= ∫</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="articles.html">Articles (=^･ｪ･^=))ﾉ彡☆</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cat_game.html">Play the Cat Game (ะ^・ω・^ะ)</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- Header -->
+  <header>
+    <!-- Image of two Bengal cats -->
+    <img id="index-img" src="images/circle-cropped.png" alt="bengal kittens curled up on a bed" />
+    <br>
+    <h1>Cats in Neath - <br>
+      Your Local Source for Cats
+    </h1>
+  </header>
+  <!-- Resize font buttons -->
+  <aside>
+    <button class="btn btn-primary btn-lg" onclick="increaseFont()">Increase Font</button>
+    <button class="btn btn-primary btn-lg" onclick="decreaseFont()">Decrease Font</button>
+  </aside>
+  <!-- Site purpose and contact article-->
+  <div id="text" class="col-12">
+    <!-- Main article -->
+    <article>
+      <h2>About this Site</h2>
+      <p>
+        Cats in Neath is a site that offers information on how to take care of cats.
+      </p>
+      <!-- Horizontal Line -->
+      <hr>
+      <!-- Introduction/Purpose section -->
+      <section>
+        <h2>Welcome!</h2>
+        <p>
+          Hi there!
+          Thinking of adopting or buying a cat in the Neath area? <br>
+          Before you do, there’re a few things you should know, and we're here to help you with that.
+        </p>
+        <p>
+          This site not only offers <a href="articles.html">information on how to take care of your kitty</a>, but also links
+          you to our very <a href="adopt_cat.html">own app that helps you find cats</a> to adopt in your local area. Not only that, but we've also got a section
+          for <a href="stories.html">cat stories</a>!
+        </p>
+        <p>
+          If you don’t fancy reading cat stories, you can go and <a href="cat_game.html">play the cat game!</a>
+        </p>
+        <!-- Handlebar script to display current date: -->
+        <script id="date-template" type="text/x-handlebars-template">
+          <p>The current date is: {{date}}.</p>
+          </script>
+        <br>
+        <div class="content-placeholder"></div>
+        <br>
+        <!-- Horizontal line -->
+        <hr>
+      </section>
+
+      <!-- Contact details section -->
+      <section>
+        <!-- Contact details -->
+        <h2>Contact Details</h2>
+
+        <p> Email us! 📧 hedonistic.opportunist@gmail.com</p>
+        <label>Your Message</label>
+        <!-- Validation message placeholder -->
+        <br>
+        <p id="validation_message">
+        </p>
+        <!-- Text area for messages -->
+        <textarea id="msg" rows="10" cols="30"></textarea>
+        <br>
+        <!-- Send Message button -->
+        <button type="button" class="btn btn-primary" onclick="validateMessage()">Send A Message</button>
+      </section>
+    </article>
+  </div>
+  <!-- Footer -->
+  <footer class="fixed-bottom">
+    <p>
+      @Copyright Anita Pal
+    </p>
+  </footer>
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="libaries/handlebars-v4.7.6.js"></script>
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>
