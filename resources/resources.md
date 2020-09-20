@@ -1,49 +1,45 @@
-
-#**Resources**
+\#**Resources**
 
 ## Images
 
-*Tabby cat by Loan*
+_Tabby cat by Loan_
 
-https://unsplash.com/photos/7AIDE8PrvA0
+<https://unsplash.com/photos/7AIDE8PrvA0>
 
-*Ginger tabby on windowsill by Florencia Viadana*
+_Ginger tabby on windowsill by Florencia Viadana_
 
-https://unsplash.com/photos/sT7ZNTQ8zHs
+<https://unsplash.com/photos/sT7ZNTQ8zHs>
 
-*Kittens by Raul Varzar*
+_Kittens by Raul Varzar_
 
-https://unsplash.com/photos/1l2waV8glIQ
+<https://unsplash.com/photos/1l2waV8glIQ>
 
-*Sleeping ginger cat by Iz & Phil*
+_Sleeping ginger cat by Iz & Phil_
 
-https://unsplash.com/photos/pdALzg0yN-8
+<https://unsplash.com/photos/pdALzg0yN-8>
 
-*Proud ginger cat by Lloyd Dirks*
+_Proud ginger cat by Lloyd Dirks_
 
-https://unsplash.com/photos/R1oSj2m-7Ks
-
-*Ginger cat*
-https://i.imgur.com/uEd6CDp.jpg
+<https://unsplash.com/photos/R1oSj2m-7Ks>
 
 Any other images on this site are mine.
 
 ## Other Resources
 
-*Sitemap generator:*
-https://www.xml-sitemaps.com/
+_Sitemap generator:_
+<https://www.xml-sitemaps.com/>
 
-*Responsive web design screenshot:*
-http://ami.responsivedesign.is/
+_Responsive web design screenshot:_
+<http://ami.responsivedesign.is/>
 
-*Mockups (prototype):*
-https://www.canva.com
+_Mockups (prototype):_
+<https://www.canva.com>
 
-*HTML validator*
-https://validator.w3.org/
+_HTML validator_
+<https://validator.w3.org/>
 
-*Cat Emoji*
-https://cutekaomoji.com/animals/cats/
+_Cat Emoji_
+<https://cutekaomoji.com/animals/cats/>
 
-*Pj5 Web Editor*
-https://editor.p5js.org/
+_Pj5 Web Editor_
+<https://editor.p5js.org/>

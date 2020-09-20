@@ -40,6 +40,14 @@ body {
 }
 
 /*
+  unordered list styling
+*/
+ul {
+  text-align: left;
+  list-style-type: circle;
+}
+
+/*
   table styling
 */
 table {
@@ -236,7 +244,7 @@ a:hover {
   for each image
 */
 .laptop_cat {
-  margin: 20px;
+  margin: 10px;
   width: 30%;
   height: auto;
   border: 5px solid #ffc1f3;
@@ -260,16 +268,17 @@ a:hover {
 
 .img-thumbnail {
   width: 30%;
+  margin: 5px;
   border: 5px solid #e11d74;
   float: left;
 }
 
 .snow_in_a_box {
   width: 33%;
-  margin-bottom: 5px;
+  margin: 10px;
   height: auto;
   border: 5px solid #e0ece4;
-  float: center;
+  float: left;
 }
 
 .ghost_and_snow {
@@ -289,11 +298,12 @@ a:hover {
   float: left;
 }
 
-.ginger_cat {
+.feed_kittens {
   margin: 15px;
-  width: 35%;
-  border-radius: 30%;
-  float: center;
+  width: 18%;
+  border-radius: 35%;
+  border: 5px solid #64958f;
+  float: left;
 }
 
 /*
@@ -412,7 +422,6 @@ in order to display text in a specific colour
   }
 
   .img-thumbnail {
-    width: 30%;
     border: 5px solid #f8bd7f;
   }
 
@@ -426,5 +435,9 @@ in order to display text in a specific colour
 
   .table {
     border: 1px solid #f7d1ba;
+  }
+
+  .feed_kittens {
+    border: 1px solid #ff9a76;
   }
 }
