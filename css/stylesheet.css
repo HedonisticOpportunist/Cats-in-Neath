@@ -314,8 +314,13 @@ a:hover {
   width: 65%;
 }
 
+.mock-img {
+  width: 25%;
+  height: auto;
+}
+
 .mock {
-  height: 250px;
+  height: 150px;
   margin: 5px;
 }
 
