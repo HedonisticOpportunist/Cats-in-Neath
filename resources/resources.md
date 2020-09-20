@@ -35,11 +35,14 @@ _Responsive web design screenshot:_
 _Mockups (prototype):_
 <https://www.canva.com>
 
-_HTML validator_
+_HTML validator:_
 <https://validator.w3.org/>
 
-_Cat Emoji_
+_Cat Emoji:_
 <https://cutekaomoji.com/animals/cats/>
 
-_Pj5 Web Editor_
+_Pj5 Web Editor:_
 <https://editor.p5js.org/>
+
+_Mobile Friendly:_
+<https://search.google.com/test/mobile-friendly>
