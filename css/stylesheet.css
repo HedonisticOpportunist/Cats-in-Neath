@@ -450,6 +450,7 @@ in order to display text in a specific colour
   /* body changes colour and font size */
   body {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    background: "ghostwhite";
     font-size: 15px;
     margin-left: 20px;
     margin-right: 20px;
@@ -459,5 +460,9 @@ in order to display text in a specific colour
     width: 10%;
     margin: 5px;
     float: center;
+  }
+
+  .btn {
+    padding: 5px;
   }
 }
