@@ -45,7 +45,16 @@ body {
 ul {
   text-align: left;
   list-style-type: circle;
+  margin-left: 1em;
 }
+
+ul li {
+  position: relative;
+  left: 1em;
+  padding-right: 1em;
+}
+
+​
 
 /*
   table styling
