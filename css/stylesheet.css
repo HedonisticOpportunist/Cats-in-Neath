@@ -26,329 +26,321 @@ https://codepen.io/pirrera/pen/bqVeGx [Accessed: 20-August-2020]
 A lot of the colours came from Color Hunt, which features carefully curated colour palettes:
 [9] Color Hunt, "Color Hunt", 2020. [Online]. Available:
 https://colorhunt.co/ [Accessed: 20-August-2020]
-
-Some more ideas for media queries came from:
-[17] StackOverFlow, Media Queries, 2020. Online].
-Available: //https://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile.
-[Accessed: 20-September-2020]
-
 /*
   body styling that uses a different colour and font in contrast to the
   headers, for exmaple.
 */
-@media only screen and (min-width : 992px) {
-  body {
-    font-family: 'Lato', sans-serif;
-    background-color: #b2ebf2;
-    text-align: left;
-    font-size: 14px;
-    margin-left: 13px;
-    margin-right: 13px;
-  }
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #b2ebf2;
+  text-align: left;
+  font-size: 14px;
+  margin-left: 13px;
+  margin-right: 13px;
+}
 
-  /*
+/*
   unordered list styling
 */
-  ul {
-    text-align: left;
-    list-style-type: circle;
-  }
+ul {
+  text-align: left;
+  list-style-type: circle;
+}
 
-  /*
+/*
   table styling
 */
-  table {
-    margin-left: 15px;
-    padding: 10px;
-    border: 1px solid #e2979c;
-  }
+table {
+  margin-left: 15px;
+  padding: 10px;
+  border: 1px solid #e2979c;
+}
 
-  /* table row and column styling */
-  th, td {
-    padding: 15px;
-    text-align: left;
-  }
+/* table row and column styling */
+th, td {
+  padding: 15px;
+  text-align: left;
+}
 
-  /*
+/*
   h1, h2, h3 styling
 */
-  h1 {
-    margin-left: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2em;
-    color: #065c6f;
-    font-weight: bold;
-  }
+h1 {
+  margin-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  color: #065c6f;
+  font-weight: bold;
+}
 
-  h2 {
-    margin-left: 10px;
-    font-family: 'Roboto', sans-serif;
-    color: #93b5e1;
-    font-style: oblique;
-    font-size: 18px;
-  }
+h2 {
+  margin-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: #93b5e1;
+  font-style: oblique;
+  font-size: 18px;
+}
 
-  /*
+/*
 Each header displays a different colour, margin and font size
  */
-  h3 {
-    margin-left: 5px;
-    font-size: 16px;
-    color: #5d54a4;
-  }
+h3 {
+  margin-left: 5px;
+  font-size: 16px;
+  color: #5d54a4;
+}
 
-  /*
+/*
  horizontal line that is dotted
 */
-  hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: #be5683;
-    border-width: 5px;
-    width: 20%;
-  }
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #be5683;
+  border-width: 5px;
+  width: 20%;
+}
 
-  /*
+/*
   navigation styling
 */
-  .navbar-custom {
-    background-color: #00bcd4;
-  }
+.navbar-custom {
+  background-color: #00bcd4;
+}
 
-  /*
+/*
   index image styling
   so that it is distinct and different from
   images on other pages
 */
-  #index-img {
-    margin-top: 15px;
-    width: 25%;
-    height: auto;
-    border-radius: 45%;
-    float: left;
-    margin-bottom: 10px;
-  }
+#index-img {
+  margin-top: 15px;
+  width: 25%;
+  height: auto;
+  border-radius: 45%;
+  float: left;
+  margin-bottom: 10px;
+}
 
-  /*
+/*
   link and hover styling
   so that link displays certain
   colour when user hovers over it
 */
-  a {
-    color: #005086;
-  }
+a {
+  color: #005086;
+}
 
-  a:hover {
-    background-color: #d6e0f0;
-  }
+a:hover {
+  background-color: #d6e0f0;
+}
 
-  /*
+/*
   custom scrollbar
 */
-  /* width */
-  ::-webkit-scrollbar {
-    width: 10px;
-  }
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
 
-  /* Track */
-  ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 20px #b0cac7;
-    border-radius: 10px;
-  }
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 20px #b0cac7;
+  border-radius: 10px;
+}
 
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #318fb5;
-    border-radius: 10px;
-  }
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #318fb5;
+  border-radius: 10px;
+}
 
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #005086;
-  }
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #005086;
+}
 
-  /*
+/*
  primary button styling
 */
-  .btn-primary {
-    background-color: #318fb5 !important;
-    margin-left: 20px;
-  }
+.btn-primary {
+  background-color: #318fb5 !important;
+  margin-left: 20px;
+}
 
-  /*
+/*
    gradient buttons
 */
-  /* general gradient button */
-  .btn {
-    flex: 1 1 auto;
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 13px;
-    transition: 0.4s;
-    background-size: 200% auto;
-    color: #005086;
-    box-shadow: 0 0 15px cyan;
-    border-radius: 20px;
-  }
+/* general gradient button */
+.btn {
+  flex: 1 1 auto;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  transition: 0.4s;
+  background-size: 200% auto;
+  color: #005086;
+  box-shadow: 0 0 15px cyan;
+  border-radius: 20px;
+}
 
-  .btn:hover {
-    background-position: right center;
-  }
+.btn:hover {
+  background-position: right center;
+}
 
-  /*
+/*
   pink-coloured gradient button
 */
-  .btn-pink {
-    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
-    text-transform: uppercase;
-    font-size: 13px;
-  }
+.btn-pink {
+  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+  text-transform: uppercase;
+  font-size: 13px;
+}
 
-  /*
+/*
   blue-coloured gradient button
 */
-  .btn-blue {
-    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
-    text-transform: uppercase;
-    font-style: 13px;
-  }
+.btn-blue {
+  background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+  text-transform: uppercase;
+  font-style: 13px;
+}
 
-  /*
+/*
   kitten tab gallery
   that changes brightness depending on hover
 */
-  .kitten {
-    border-radius: 30%;
-    height: auto;
-    width: 85%;
-    opacity: 0.9;
-    margin: 15px;
-    border: 5px solid #c3aed6;
-  }
+.kitten {
+  border-radius: 30%;
+  height: auto;
+  width: 85%;
+  opacity: 0.9;
+  margin: 15px;
+  border: 5px solid #c3aed6;
+}
 
-  .kitten:hover {
-    opacity: 1;
-  }
+.kitten:hover {
+  opacity: 1;
+}
 
-  .column {
-    float: left;
-    width: 30%;
-    padding: 35px;
-  }
+.column {
+  float: left;
+  width: 30%;
+  padding: 35px;
+}
 
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
-  /*
+/*
   assorted title styling for various
   pages where the text is either left or centre to
   the image. Also, the border colours are different
   for each image
 */
-  .laptop_cat {
-    margin: 10px;
-    width: 30%;
-    height: auto;
-    border: 5px solid #ffc1f3;
-    float: left;
-  }
+.laptop_cat {
+  margin: 10px;
+  width: 30%;
+  height: auto;
+  border: 5px solid #ffc1f3;
+  float: left;
+}
 
-  .snow_asleep {
-    margin: 15px;
-    width: 20%;
-    height: auto;
-    border: 5px solid #be5683;
-    float: left;
-  }
+.snow_asleep {
+  margin: 15px;
+  width: 20%;
+  height: auto;
+  border: 5px solid #be5683;
+  float: left;
+}
 
-  .ghostie {
-    width: 20%;
-    border: 5px solid #cedebd;
-    border-radius: 15%;
-    float: left;
-  }
+.ghostie {
+  width: 20%;
+  border: 5px solid #cedebd;
+  border-radius: 15%;
+  float: left;
+}
 
-  .img-thumbnail {
-    width: 30%;
-    margin: 5px;
-    border: 5px solid #e11d74;
-    float: left;
-  }
+.img-thumbnail {
+  width: 30%;
+  margin: 5px;
+  border: 5px solid #e11d74;
+  float: left;
+}
 
-  .snow_in_a_box {
-    width: 33%;
-    margin: 10px;
-    height: auto;
-    border: 5px solid #e0ece4;
-    float: left;
-  }
+.snow_in_a_box {
+  width: 33%;
+  margin: 10px;
+  height: auto;
+  border: 5px solid #e0ece4;
+  float: left;
+}
 
-  .ghost_and_snow {
-    margin: 15px;
-    width: 20%;
-    margin-bottom: 5px;
-    height: auto;
-    border: 5px solid #df5e88;
-    float: left;
-  }
+.ghost_and_snow {
+  margin: 15px;
+  width: 20%;
+  margin-bottom: 5px;
+  height: auto;
+  border: 5px solid #df5e88;
+  float: left;
+}
 
-  .snow_cushion {
-    margin: 5px;
-    width: 20%;
-    height: 180px;
-    border: 5px solid #f7d1ba;
-    float: left;
-  }
+.snow_cushion {
+  margin: 5px;
+  width: 20%;
+  height: 180px;
+  border: 5px solid #f7d1ba;
+  float: left;
+}
 
-  .feed_kittens {
-    margin: 15px;
-    width: 18%;
-    border-radius: 35%;
-    border: 5px solid #64958f;
-    float: left;
-  }
+.feed_kittens {
+  margin: 15px;
+  width: 18%;
+  border-radius: 35%;
+  border: 5px solid #64958f;
+  float: left;
+}
 
-  /*
+/*
  wireframes and mock image styling
  used in the report and wireframes pages
 */
-  .wireframe-img {
-    width: 65%;
-  }
+.wireframe-img {
+  width: 65%;
+}
 
-  .mock {
-    height: 250px;
-    margin: 5px;
-  }
+.mock {
+  height: 250px;
+  margin: 5px;
+}
 
-  /*
+/*
 Footer styling with specific
 margins and text alignment so that the
 font for the footer is different from the other texts
 displayed on the screen
 */
-  .fixed-bottom {
-    text-align: right;
-    margin-right: 5px;
-    font-size: 10px;
-  }
+.fixed-bottom {
+  text-align: right;
+  margin-right: 5px;
+  font-size: 10px;
+}
 
-  /*
+/*
 nmessage validation styling
 in order to display text in a specific colour
 */
-  #validation_message {
-    margin: 15px;
-    margin-left: 10px;
-    color: #e94560;
-    font-style: italic;
-    font-weight: bolder;
-  }
+#validation_message {
+  margin: 15px;
+  margin-left: 10px;
+  color: #e94560;
+  font-style: italic;
+  font-weight: bolder;
 }
 
 /*
@@ -442,108 +434,30 @@ in order to display text in a specific colour
   }
 
   .table {
-    border: 5px solid #f7d1ba;
-  }
-
-  .feed_kittens {
-    border: 5px solid #ff9a76;
-  }
-}
-
-@media only screen and (min-width : 480px) {
-
-  /* body changes colour and font size */
-  body {
-    background-color: #f6f6f6;
-    font-size: 13px;
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-
-  /*
-   headers become uppercase when
-   a smaller screen is used
-  */
-  h1 {
-    font-size: 200%;
-    text-transform: uppercase;
-    color: #ffc7c7;
-  }
-
-  h2 {
-    text-transform: uppercase;
-    color: #ffe2e2;
-  }
-
-  h3 {
-    text-transform: uppercase;
-    color: #ffe2e2;
-  }
-
-  .navbar-custom {
-    background-color: #ffcbcb;
-  }
-
-  /* horizontal line changes colour */
-  hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: #e5df88;
-  }
-
-  /*
-  button text becomes lowercase
- */
-  .btn {
-    padding: 10px;
-    border-radius: 16px;
-    text-transform: lowercase;
-    font-style: normal;
-    text-decoration-style: solid;
-    font-size: 12px;
-  }
-
-  .btn-pink {
-    background-image: linear-gradient(to right, #f1f3f8 0%, #d6e0f0 51%, #f1f3f8 100%);
-    text-transform: lowercase;
-    font-size: 12px;
-  }
-
-  /*
-    images change border to
-    fit in with the layout for mobile screens
-  */
-  .ghost_and_snow {
-    border: 1px solid #206a5d;
-    float: center;
-  }
-
-  .snow_asleep {
-    border: 1px solid #f1f3de;
-    float: center;
-  }
-
-  .img-thumbnail {
-    border: 1px solid #f8bd7f;
-    float: center;
-  }
-
-  .snow_in_a_box {
-    border: 1px solid #e3dfc8;
-    float: center;
-  }
-
-  .kitten {
-    border: 1px solid #bfdcae;
-    float: center;
-  }
-
-  .table {
     border: 1px solid #f7d1ba;
-    float: center;
   }
 
   .feed_kittens {
     border: 1px solid #ff9a76;
+  }
+}
+
+@media only screen and (max-width : 480px) {
+  [class*="col-"] {
+    width: 200%;
+  }
+
+  /* body changes colour and font size */
+  body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  img {
+    width: 10%;
+    margin: 5px;
+    float: center;
   }
 }
