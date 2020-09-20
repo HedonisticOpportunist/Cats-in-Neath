@@ -450,7 +450,6 @@ in order to display text in a specific colour
   /* body changes colour and font size */
   body {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    background: "ghostwhite";
     font-size: 15px;
     margin-left: 20px;
     margin-right: 20px;
