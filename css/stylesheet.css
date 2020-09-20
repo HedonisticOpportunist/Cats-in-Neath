@@ -28,7 +28,7 @@ A lot of the colours came from Color Hunt, which features carefully curated colo
 https://colorhunt.co/ [Accessed: 20-August-2020]
 /*
   body styling that uses a different colour and font in contrast to the
-  headers, for exmaple.
+  headers, for example.
 */
 body {
   font-family: 'Lato', sans-serif;
@@ -337,7 +337,7 @@ displayed on the screen
 }
 
 /*
-nmessage validation styling
+message validation styling
 in order to display text in a specific colour
 */
 #validation_message {

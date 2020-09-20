@@ -10,7 +10,7 @@ https://www.w3schools.com/jsref/prop_style_fontsize.asp. [Accessed: 20-August-20
 [2] Code Institute, '5 Day Coding Challenge', 2020. [Online]. Available:
 https://codeinstitute.net/5-day-coding-challenge/.[Accessed: 28-Aug-2020]
 
-The bare bones of the handle bar function came from the installation page of the official
+The bare bones of the handlebars function came from the installation page of the official
 Handlebars page. I adjusted the code so that it would return the date in a specific format.
 
 [3] Handlebarsjs.com, 'Handlebars Installation', 2020. [Online]. Available:
@@ -67,11 +67,11 @@ function directToArticlesPage() {
 }
 
 /*
-handle bars date function
+handlebars date function
 */
 $(document).ready(function() {
 
-  //prepare the html segement
+  //prepare the html segment
   let html_template = $("#date-template").html();
 
   //load the template
@@ -101,12 +101,12 @@ function validateMessage() {
   //find the validation message field by its id selector
   let validation_field = document.getElementById("validation_message");
 
-  //if the message is an empty string or null
-  //then display text that says that the field needs to be filled out
-  if (message_field == "" || message_field == null) {
+  //if the message is an empty string, less than 1 char long or null
+  //then display text stating that the field needs to be filled out
+  if (message_field == "" || message_field == null || message_field.length <= 1) {
     text = "Message field must be filled out.";
     validation_field.innerHTML = text;
-  } else { // else the message displays that the text has been submitted.
+  } else { // else the validation  message displays that the text has been submitted.
     text = "You have successfully submitted a message.";
     validation_field.innerHTML = text;
   }

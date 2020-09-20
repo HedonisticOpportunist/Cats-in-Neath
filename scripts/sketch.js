@@ -1,7 +1,7 @@
 /*
  I used the P5.js library to create this very simple cat game; the character design is my own,
  although some of the code game came from the Introduction to Programming I course, namely the usage of the
- scroll position in order to keep the character contained within a certain range.
+ scroll position variable  in order to keep the character contained within a certain range.
 
  However, the idea of keeping the score to 500 and resetting the game based on that is entirely
  my own idea. I coded this site on the online editor of the pj5 site (https://editor.p5js.org/).
@@ -245,7 +245,7 @@ function mouseFound(mouse) {
     int(dist(mouse.x_pos, mouse.y_pos, cat_x, cat_y));
 
   //if distance is equal to twenty
-  //then incrememt the game score by one
+  //then increment the game score by one
   if (distance == 20) {
     game_score += 1;
   }
