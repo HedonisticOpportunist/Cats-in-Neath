@@ -5,5 +5,4 @@ Final project for UoL / Web Development
 https://london.ac.uk/courses/web-development.
 
 URL:
-
-https://hedonisticopportunist.github.io/cats_in_neath_final_submission/.
+https://hedonisticopportunist.github.io/cats_in_neath/
