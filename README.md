@@ -5,4 +5,4 @@ Final project for the module: Web Development / CM1040 (University of London).
 https://london.ac.uk/courses/web-development.
 
 URL:
-https://hedonisticopportunist.github.io/cats_in_neath/
+https://hedonisticopportunist.github.io/Cats-in-Neath/
